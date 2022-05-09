@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Minor Project</title>
+  <link rel="icon" href="NITAP-LOGO.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- title -->
+  <section id="title">
+    <div class="container-fluid">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="https://www.nitandhra.ac.in/main/">NITAP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collpapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://nitandhra.ac.in/dept/ece/">ECE-Dept</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.nitandhra.ac.in/student/auth/login">Student-Portal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Project-Question">Project</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Team
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#Team">Eshwer</a>
+                <a class="dropdown-item" href="#Team">Sreeja</a>
+                <a class="dropdown-item" href="#Team">Manogna</a>
+                <a class="dropdown-item" href="#Team">Vinaya_sri</a>
+                <a class="dropdown-item" href="#Team">Jai_Krishna</a>
+                <a class="dropdown-item" href="#Team">Nikitha</a>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr>
+      <div class="row">
+        <div class="title-text col-lg-6">
+          <h1>
+            Here we are introducing our Minor-Project!!
+          </h1>
+          <p class="p1">Scroll down for more details.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://media1.giphy.com/media/QvXUg57xakpdZiOJof/giphy.gif" alt="">
+
+        </div>
+      </div>
+  </section>
+  <!-- Project Details -->
+  <section id="Project-Question">
+    <div class="row">
+      <div class="casual-question col-lg-5">
+        <h2>Have you ever thought how wireless charging occurs??</h2>
+        <img class="Question-mark" src="https://www.business2community.com/wp-content/uploads/2013/03/Question1.jpg" alt="Question-mark" height="200px" ;>
+      </div>
+      <div class="casual-answer col-lg-7">
+        <h3>
+          Wireless Charging works on the principle of transmission of power wirelessly from transmitter to receiver circuit
+          through mutual induction between the coils.
+        </h3>
+        <h2>Yes! You heard it right.</h2>
+      </div>
+      <div class="theme col">
+        <q>Transmission of Power wirelessly from one point to the other is the main theme of our project</q>
+      </div>
+
+    </div>
+  </section>
+  <section id="Project">
+
+    <div class="transmitter row">
+      <div class="col-lg-4">
+        <h1 class="h1">Transmitter-circuit</h1>
+        <p class="p1">It converts DC Source into AC Source using IRZ44-MOSFET.</p>
+        <p class="p1">Transmitter circuit consists of</p>
+        <ol>
+          <li>DC Power supply</li>
+          <li>LED</li>
+          <li>Switch</li>
+          <li>1kilo ohm resistors</li>
+          <li>Z44 MOSFET</li>
+          <li>An inductor coil</li>
+        </ol>
+      </div>
+      <div class="col-lg-8">
+        <img class="Project-image1" src="Images/Transmitter circuit.jpg" alt="" height="450px" width="750px">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <img class="Project-image2" src="Images/Receiver circuit.jpg" alt="" height="450px" width="750px;">
+      </div>
+      <div class="col-lg-4">
+        <h1 class="h1">Receiver-circuit</h1>
+        <p class="p1">It converts AC Source into DC using Rectification and then into 5V DC with the help of LM7805 Voltage regulator.</p>
+        <p class="p1">Receiver circuit consists of</p>
+        <ol>
+          <li>An inductor coil</li>
+          <li>Rectifier</li>
+          <li>Capacitor(470uf/35V)</li>
+          <li>LM7805 Voltage regulator</li>
+          <li>Micro USB charging port</li>
+        </ol>
+      </div>
+    </div>
+    <hr>
+    <div class="PPT">
+      <h2>To know more info about the project click on the following links</h2>
+      <a href="https://docs.google.com/presentation/d/1JUOkmaVBaWVjoltWxZihCrvcUJR51xER/edit?usp=sharing&ouid=102689831906011701691&rtpof=true&sd=true">
+        <button class="btn btn-outline-dark btn-lg" type="button" name="button">CLICK TO VIEW OUR PPT</button>
+      </a>
+      <a href="https://drive.google.com/file/d/1valHYzLOOLXyp_d8e2bJGbpYKs81lc85/view?usp=sharing">
+        <button class="btn btn-outline-dark btn-lg" type="button" name="button">CLICK TO VIEW REPORT</button>
+      </a>
+    </div>
+    <hr>
+  </section>
+  <section id="Team">
+    <h1 class="team-members">Team-Members</h1>
+    <div id="carouselExampleIndicators" class="carousel" data-ride="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div id="Eshwer" class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="pictures" src="Images/Eshwer.png" alt="Eshwer Profile Picture">
+            </div>
+            <div class="col-lg-6">
+              <p class="p">
+                Hey peeps! I'm Eshwer doing my B.Tech 2nd year from NIT AP in ECE department. Transmission of power wirelessly from one point to the other is the main theme of our project.. Have a glance on our project
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="pictures" src="Images/sreeja.png" alt="Sreeja Profile Picture">
+            </div>
+            <div class="col-lg-6">
+              <p class="p">Hola todos!
+                This is Sreeja, pursing B.Tech II year from NIT AP. I am very happy to share our project. Being ECEIAN ,wireless technology attracted me in doing this project . So, guys do spread your contribution towards wireless technology.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="pictures" src="Images/Manogna.png" alt="Manogna Profile Picture">
+            </div>
+            <div class="col-lg-6">
+              <p class="p">Bonjour! I'm Manogna pursuing 2nd year B.Tech in ECE from NIT AP. I'm delighted to share our project on raising technology, wireless communications.Let's get into the world of wireless technology.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="pictures" src="Images/Vinaya_sri.png" alt="Vinaya_sri Profile Picture">
+            </div>
+            <div class="col-lg-6">
+              <p class="p">Hey there ! I'm Vinaya Sri pursuing 2nd year B-Tech in Electronics and Communications Engineering from NIT Andhra Pradesh. I'm Feeling very excited to share every detail about our wireless mobile charger here. Hoping this
+                small invention helps atleast one. Keep digging for more info. Ba-bye !</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="pictures" src="Images/Jai_Krishna.png" alt="Jai_Krishna Profile Picture">
+            </div>
+            <div class="col-lg-6">
+
+              <p class="p">Hello, I am K. Jai krishna pursuing 2nd B.Tech in ECE from NIT AP. As the world is heading towards the new technological advancements, we have come up with the idea of choosing wireless power transmission as our project...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="pictures" src="Images/Nikitha.png" alt="Nikitha Profile Picture">
+            </div>
+            <div class="col-lg-6">
+              <p class="p">Hi everyone, My name is Nikitha. Currently I am studying B.Tech 2nd year ECE in NIT AP. I am very happy to spread my thoughts about wireless electronics. Its all about how we grow to get advanced in transmitting the power
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <hr>
+    <footer id="footer">
+      <a href="https://www.facebook.com/eshwer.garnepalli.9"><i class="social-icons bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/garnepalli_eshwer/"><i class="social-icons bi bi-instagram"></i></a>
+      <a href="https://twitter.com/Eshwer_2002"><i class="social-icons bi bi-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/eshwer-garnepalli-605922234/"><i class="social-icons bi bi-linkedin"></i></a>
+      <p>© All rights reserved</p>
+    </footer>
+  </section>
+</body>
+
+</html>
